@@ -15,3 +15,10 @@ def largest(num_list):
 #Challenge3
 def occurances(string, substr):
   return string.count(substr)
+
+#Challenge4
+def product(*args):
+  product = 1
+  for arg in args:
+    product *= arg
+  return product
